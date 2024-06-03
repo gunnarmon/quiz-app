@@ -15,6 +15,32 @@ header {
   width: 100%;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  display: flex;
+  background-color: rgb(40, 27, 95);
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 5rem;
+}
+
 .question__card {
   display: flex;
   flex-direction: column;
@@ -22,6 +48,7 @@ header {
   flex-wrap: wrap;
   padding: 3rem;
   margin: 3rem;
+  border: 0.3rem solid rgb(22, 0, 53);
   background-color: rgb(169, 164, 229);
 }
 
