@@ -17,6 +17,7 @@ header {
 
 .question__card {
   display: flex;
+  flex-direction: column;
   position: relative;
   padding: 5em;
   margin: 5em;
@@ -31,9 +32,16 @@ header {
   padding: 0.3rem;
 }
 
+.question {
+  display: flex;
+  top: 0;
+}
+
 .show__answer {
   display: flex;
+  flex-direction: column;
   position: absolute;
-  bottom: 2rem;
-  padding: 0.5rem;
+
+  /*   bottom: 2rem;
+  padding: 0.5rem; */
 }
