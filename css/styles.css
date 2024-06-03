@@ -52,10 +52,10 @@ a {
   background-color: rgb(169, 164, 229);
 }
 
-.bookmark {
+.question__card .bookmark__icon {
   display: flex;
   position: absolute;
-  top: -0.5rem;
+  top: -1.5rem;
   right: -0.5rem;
   padding: 0.3rem;
 }
