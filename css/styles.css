@@ -63,6 +63,7 @@ a {
 .question {
   display: flex;
   top: 0;
+  margin-bottom: 5rem;
 }
 
 .show__answer {
@@ -70,7 +71,18 @@ a {
   flex-direction: column;
   align-self: center;
   position: absolute;
+  background-color: black;
+  color: white;
+  padding: 0.8rem;
+  border: 3px whitesmoke solid;
+  border-radius: 1rem;
+  bottom: 5rem;
+}
 
-  /*   bottom: 2rem;
-  padding: 0.5rem; */
+.answer {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  position: absolute;
+  bottom: 1rem;
 }
