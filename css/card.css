@@ -1,0 +1,49 @@
+.card {
+  position: relative;
+  flex-wrap: wrap;
+  padding: 2rem;
+  margin-top: 1rem;
+  width: 80%;
+  min-height: 300px;
+  border: 0.3rem solid var(--night-vio);
+  background-color: var(--card-background);
+}
+
+.card__answer {
+  position: absolute;
+  margin-top: 3rem;
+}
+
+.card__tagbox {
+  position: absolute;
+  bottom: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.card__tag {
+  border: 0.15rem solid;
+  padding: 0.3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  gap: 3rem;
+  border-radius: 0.3rem;
+  background-color: var(--night-vio);
+  color: var(--bright-vio);
+}
+
+.card__bookmark {
+  display: flex;
+  position: absolute;
+  top: -1.2rem;
+  right: -0.5rem;
+  padding: 0.3rem;
+}
+
+.card__bookmark--bookmarked {
+  display: flex;
+  position: absolute;
+  top: -1.2rem;
+  right: -0.5rem;
+  padding: 0.3rem;
+}

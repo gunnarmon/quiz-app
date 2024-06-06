@@ -1,0 +1,15 @@
+:root {
+  --standard-vio: #281b5f;
+  --dark-vio: #0a0022;
+  --background-vio: #d2b7f4;
+  --card-background: #a9a4e5;
+  --night-vio: #211531;
+  --bright-vio: #e1d1f5;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: system-ui;
+}

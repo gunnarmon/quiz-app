@@ -6,64 +6,100 @@
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Quiz App</title>
   </head>
-  <body>
+  <body class="body">
     <header>
       <h1>QUIZ APP</h1>
     </header>
-    <main>
-      <div class="question__card">
-        <img
-          class="bookmark__icon"
-          src="./assets/bookmark-trans.png"
-          alt="A bookmark icon"
-        />
-        <section class="question">
-          <h2>What's the question?</h2>
-        </section>
-        <button aria-label="show answer" class="show__answer">
+    <li class="card">
+      <section>
+        <h2 class="card__question">Question</h2>
+        <button
+          class="button__showanswer"
+          popovertarget="card__answer"
+          aria-label="button show answer"
+        >
           show answer
         </button>
-        <section class="answer">
-          <h3>answer</h3>
-        </section>
-      </div>
-      <div class="question__card">
+        <div class="card__answer" popover="auto" id="card__answer">answer</div>
+        <!--<div class="card__answer" popover="auto" id="answer">answer</div> -->
+        <div class="card__tagbox">
+          <p class="card__tag">#tag</p>
+          <p class="card__tag">#tag</p>
+          <p class="card__tag">#tag</p>
+          <p class="card__tag">#tag</p>
+        </div>
         <img
-          class="bookmark__icon"
+          class="card__bookmark"
           src="./assets/bookmark-trans.png"
           alt="A bookmark icon"
         />
-        <section class="question">
-          <h2>What's the question?</h2>
-        </section>
-        <button aria-label="show answer" class="show__answer">
-          show Answer
+      </section>
+    </li>
+    <li class="card">
+      <section>
+        <h2 class="card__question">Question</h2>
+        <button class="button__showanswer" aria-label="show answer">
+          show answer
         </button>
-        <section class="answer">
-          <h3>answer</h3>
-        </section>
-      </div>
-      <div class="question__card">
+        <p class="card__answer">answer</p>
+        <div class="card__tagbox">
+          <p class="card__tag">#tag</p>
+          <p class="card__tag">#tag</p>
+          <p class="card__tag">#tag</p>
+          <p class="card__tag">#tag</p>
+        </div>
         <img
-          class="bookmark__icon"
+          class="card__bookmark"
           src="./assets/bookmark-trans.png"
-          alt="bookmark icon"
+          alt="A bookmark icon"
         />
-        <section class="question">
-          <h2>What's the question?</h2>
-        </section>
-        <button aria-label="show answer" class="show__answer">
-          show Answer
+      </section>
+    </li>
+    <li class="card">
+      <section>
+        <h2 class="card__question">Question</h2>
+        <button class="button__showanswer" aria-label="show answer">
+          show answer
         </button>
-        <section class="answer">
-          <h3>answer</h3>
-        </section>
-      </div>
-    </main>
+        <p class="card__answer">answer</p>
+        <div class="card__tagbox">
+          <p class="card__tag">#tag</p>
+          <p class="card__tag">#tag</p>
+          <p class="card__tag">#tag</p>
+          <p class="card__tag">#tag</p>
+        </div>
+        <img
+          class="card__bookmark"
+          src="./assets/bookmark-trans.png"
+          alt="A bookmark icon"
+        />
+      </section>
+    </li>
+    <li class="card">
+      <section>
+        <h2 class="card__question">Question</h2>
+        <button class="button__showanswer" aria-label="show answer">
+          show answer
+        </button>
+        <p class="card__answer">answer</p>
+        <div class="card__tagbox">
+          <p class="card__tag">#tag</p>
+          <p class="card__tag">#tag</p>
+          <p class="card__tag">#tag</p>
+          <p class="card__tag">#tag</p>
+        </div>
+        <img
+          class="card__bookmark"
+          src="./assets/bookmark-trans.png"
+          alt="A bookmark icon"
+        />
+      </section>
+    </li>
+
     <footer>
-      <nav class="nav">
+      <nav class="footer__navigation">
         <ul>
-          <a href="#home" alt="go to home">
+          <a class="footer__link" href="./index.html" alt="go to home">
             <img
               class="home__icon"
               src="./assets/home-white-filled.png"
@@ -72,7 +108,7 @@
           </a>
         </ul>
         <ul>
-          <a href="#bookmarks" alt="go to bookmarks">
+          <a href="./bookmarks.html" alt="go to bookmarks">
             <img
               class="bookmark__icon"
               src="./assets/bookmark-black-filled.png"
@@ -81,7 +117,7 @@
           </a>
         </ul>
         <ul>
-          <a href="#profile" alt="got to profile">
+          <a href="./profile.html" alt="got to profile">
             <img
               class="profile__icon"
               src="./assets/profile-black-filled.png"

@@ -1,0 +1,7 @@
+header {
+  background-color: var(--standard-vio);
+  color: var(--bright-vio);
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}

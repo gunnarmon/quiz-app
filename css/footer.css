@@ -1,0 +1,19 @@
+footer {
+  background-color: var(--standard-vio);
+  color: white;
+  position: fixed;
+  flex-wrap: wrap;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer__navigation {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.footer_link {
+  text-decoration: none;
+  color: white;
+}
